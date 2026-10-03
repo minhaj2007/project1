@@ -1,12 +1,30 @@
-h2{
-color:orange;
-text-decoration: wavy blue underline;
+*{
+    font-family: 'Courier New';
+
 }
-button{
-    color:white;
-    background-color: blue;
+h1{
+    color: #1b74e4;
 }
-p{
-    color:white;
+#searchbtn{
+    color: white;
     background-color: black;
+}
+.userbtn{
+    background-color: aqua;
+}
+button:hover{
+background-color: black;
+color:aliceblue;
+}
+h1:hover{
+    text-decoration: underline;
+}
+button:active{
+    background-color: hotpink;
+}
+h1:active{
+    color: black;
+}
+input[type="radio"]:checked + label{
+color:blue;
 }
