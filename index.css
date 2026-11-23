@@ -6,3 +6,6 @@ div{
     display: inline block;
     margin: 2px;
 }
+#div{
+    display: none;
+}
